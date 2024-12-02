@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Robot&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Robot", sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+#header {
+  width: 100%;
+  padding: 30px 0;
+  position: fixed;
+  top: 0;
+}
+
+#nav-bar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 10%;
+  width: 100%;
+}
+
+.logo {
+  width: 250px;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  float: left;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0.5rem;
+  text-align: right;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin-inline: 1rem;
+}
+
+li a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+form {
+  margin-bottom: 100px;
+}
+
+label {
+  display: block;
+  width: 100%;
+  margin: 30px 0;
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: white;
+  color: #333;
+  border: 1px solid #000;
+  border-radius: 3px 3px;
+}
+
+.button {
+  background-color: gold;
+  color: #000;
+  border: none;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+main {
+  margin: 0 auto;
+  width: 75%;
+  line-height: 1.5em;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+#Features {
+  margin: auto;
+  width: 100%;
+  display: grid;
+  gap: 60px;
+  place-content: center;
+}
+
+.premium, .fast-shipping, .quality {
+  display: grid;
+  grid-template-columns: 100px 2fr;
+  column-gap: 30px;
+}
+
+.icon {
+  color: orange;
+}
+
+iframe {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video {
+  width: 40vw;
+  height: 315px;
+}
+
+#Pricing {
+  padding: 25px 0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.price {
+  border: 1px solid #333;
+  border-radius: 10px 10px;
+  
+}
+
+h4 {
+  margin-bottom: 20px;
+  padding: 1rem;
+  background-color: #ccc;
+  border-radius: 10px 10px 0 0;
+}
+
+h3 {
+  padding: 15px;
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 10px 10px;
+  background-color: #ccc;
+  text-align: end;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+  iframe {
+    width: 100vw;
+  }
+
+  #Price {
+    width: 100%;
+  }
+}
